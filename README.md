@@ -1,0 +1,2 @@
+# Fully Homomorphic LFSR using TFHE.rs
+This project implements a Linear-feedback shift register (LFSR) normally and with a FHE variant. The LFSR uses 8 bits and has taps at positions 8, 6, 5, 4, and 1. The 8 bit LFSR has a period of 255. The FHE variant runs very slowly due to the number of bits and the operations required. It may be able to be sped up using the rust nightly toolchain to enable AVX instructions.
